@@ -7,6 +7,11 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "balance",
 				"outputs": [
 					{
@@ -16,6 +21,24 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address payable",
+						"name": "destAddr",
+						"type": "address"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -51,11 +74,11 @@
 	},
 	"sources": {
 		"contracts/tirelire.sol": {
-			"keccak256": "0x81c2f68048333190f8845012018280ce36b2cab8b1611a73bddff1479d3addd5",
+			"keccak256": "0xdbedc95c468425ad9f42c09ee82b7da2ad5f294668f98a2b18e34366f79334c9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://62c93779ad7e4488bcc26c081e5ae72834a27a7009365e97f065ef2c6e2e5dc3",
-				"dweb:/ipfs/QmNjTe441LCMgDYDvYJRsNRrUTXJr8DtrixJthM5s41AAb"
+				"bzz-raw://f292c6e6acc72176d5cdf2ec73d30b9b8dce8e6d7d3ea5318ffc1b6ab86c18f8",
+				"dweb:/ipfs/QmdTHGwKFo3tdkmdfKwDQoaKFJRvQ8xPccXCrVHwdGycam"
 			]
 		}
 	},
