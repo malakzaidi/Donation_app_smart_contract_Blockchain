@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/tirelire.sol": "Tirelire"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/tirelire.sol": {
+			"keccak256": "0x81c2f68048333190f8845012018280ce36b2cab8b1611a73bddff1479d3addd5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://62c93779ad7e4488bcc26c081e5ae72834a27a7009365e97f065ef2c6e2e5dc3",
+				"dweb:/ipfs/QmNjTe441LCMgDYDvYJRsNRrUTXJr8DtrixJthM5s41AAb"
+			]
+		}
+	},
+	"version": 1
+}
