@@ -59,7 +59,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/tirelire.sol": "Tirelire"
+			"contracts/CTFDonBox.sol": "Tirelire"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -73,7 +73,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/tirelire.sol": {
+		"contracts/CTFDonBox.sol": {
 			"keccak256": "0xdbedc95c468425ad9f42c09ee82b7da2ad5f294668f98a2b18e34366f79334c9",
 			"license": "MIT",
 			"urls": [
